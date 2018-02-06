@@ -8,3 +8,8 @@ td, th {
 svg {
     height: 150px;
 }
+td:first-of-type, td:first-of-type > div {
+    height: 200px;
+    width: 250px;
+}
+/* We need the CSS lines for td because Google Maps does not know what we want for our maps' dimensions */
